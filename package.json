@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@stellar/stellar-sdk": "^13.1.0",
+    "dotenv": "^16.4.7",
+    "node-schedule": "^2.1.1"
+  }
+}
