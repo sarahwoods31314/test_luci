@@ -1,4 +1,5 @@
 require('dotenv').config();
+const keep_alive = require('./keep_alive.js');
 const StellarSdk = require('@stellar/stellar-sdk');
 const fs = require('fs');
 const server = new StellarSdk.Horizon.Server('https://horizon.stellar.org');
